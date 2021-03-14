@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.material-icons-outlined {
+  font-family: 'Material Icons' !important;
+  color: grey;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 10px;
+}
+
+nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-links .app {
+  font-size: 24px !important;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+nav .nav-links .app:hover {
+  background-color: #ece2e2;
+  text-decoration: none !important;
+}
+
+nav .nav-links .nav-link {
+  text-decoration: none;
+  font-size: 13px;
+  color: #404040;
+  font-weight: lighter;
+  padding: 0 5px;
+}
+
+nav .nav-links .nav-link:hover {
+  text-decoration: underline;
+}
+
+.pfp {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
