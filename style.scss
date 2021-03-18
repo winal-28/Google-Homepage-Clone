@@ -19,7 +19,7 @@ nav {
   padding: 10px;
   .nav-links {
     display: flex;
-    width: 15%;
+    width: 204.9px;
     justify-content: space-around;
     list-style: none;
     align-items: center;
@@ -114,7 +114,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 15vh;
+  height: 100px;
   align-items: center;
   color: grey;
 
@@ -140,10 +140,10 @@ footer {
       }
     }
     .footer-about-links {
-      width: 30%;
+      width: 409px;
     }
     .footer-other-links {
-      width: 15%;
+      width: 204px;
     }
   }
 }
