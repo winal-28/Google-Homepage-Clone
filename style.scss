@@ -8,6 +8,9 @@
     font-family: 'Material Icons' !important;
     color: grey;
 }
+.material-icons {
+    cursor: pointer;
+}
 nav {
     display: flex;
     height: 10vh;
@@ -68,6 +71,9 @@ main {
         &:hover {
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
         }
+         &:focus {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+        }
         .search {
             font-size: 20px;
         }
@@ -76,6 +82,15 @@ main {
             outline: none;
             border: none;
             font-size: 16px;
+        }
+    }
+    .buttons {
+        padding: 10px;
+        button {
+            padding: 10px 16px;
+            border: none;
+            color: #404040;
+            margin: 0 8px;
         }
     }
 }

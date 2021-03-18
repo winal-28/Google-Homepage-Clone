@@ -11,6 +11,10 @@
   color: grey;
 }
 
+.material-icons {
+  cursor: pointer;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,6 +112,11 @@ main .search-box:hover {
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
 }
 
+main .search-box:focus {
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+}
+
 main .search-box .search {
   font-size: 20px;
 }
@@ -117,5 +126,16 @@ main .search-box .search-input {
   outline: none;
   border: none;
   font-size: 16px;
+}
+
+main .buttons {
+  padding: 10px;
+}
+
+main .buttons button {
+  padding: 10px 16px;
+  border: none;
+  color: #404040;
+  margin: 0 8px;
 }
 /*# sourceMappingURL=style.css.map */
