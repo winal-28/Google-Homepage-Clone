@@ -3,7 +3,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 .material-icons-outlined {
@@ -51,7 +51,7 @@ nav .nav-links .app-link .app {
 }
 
 nav .nav-links .app-link .app:hover {
-  background-color: #ece2e2;
+  background-color: #f3ebeb;
 }
 
 nav .nav-links .nav-link {
