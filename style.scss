@@ -45,7 +45,6 @@ nav {
         }
     }
 }
-
 .pfp {
     width: 32px;
     height: 32px;
@@ -58,11 +57,21 @@ main {
     align-items: center;
     .search-box {
         display: flex;
+        align-items: center;
         width: 582px;
-        padding: 10px 5px;
+        padding: 10px;
         justify-content: space-between;
+        margin: 20px;
+        border-radius: 30px;
+        color: grey;
+        border: solid 1px lightgrey;
+        .search {
+            font-size: 20px;
+        }
         .search-input {
-            width: 80%;
+            width: 90%;
+            outline: none;
+            border: none;
         }
     }
 }

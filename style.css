@@ -89,14 +89,27 @@ main .search-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 582px;
-  padding: 10px 5px;
+  padding: 10px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 20px;
+  border-radius: 30px;
+  color: grey;
+  border: solid 1px lightgrey;
+}
+
+main .search-box .search {
+  font-size: 20px;
 }
 
 main .search-box .search-input {
-  width: 80%;
+  width: 90%;
+  outline: none;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
