@@ -93,7 +93,7 @@ main .search-box {
       -ms-flex-align: center;
           align-items: center;
   width: 582px;
-  padding: 10px;
+  padding: 10px 15px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -101,6 +101,11 @@ main .search-box {
   border-radius: 30px;
   color: grey;
   border: solid 1px lightgrey;
+}
+
+main .search-box:hover {
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
 }
 
 main .search-box .search {
@@ -111,5 +116,6 @@ main .search-box .search-input {
   width: 90%;
   outline: none;
   border: none;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */
