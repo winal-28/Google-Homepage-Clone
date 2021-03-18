@@ -51,3 +51,8 @@ nav {
     height: 32px;
     border-radius: 50%;
 }
+main {
+    max-height: 90vh;
+    display: flex;
+    justify-content: center;
+}

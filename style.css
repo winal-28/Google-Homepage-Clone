@@ -70,4 +70,14 @@ nav .nav-links .nav-link:hover {
   height: 32px;
   border-radius: 50%;
 }
+
+main {
+  max-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */
