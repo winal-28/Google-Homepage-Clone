@@ -133,6 +133,7 @@ main .buttons {
 }
 
 main .buttons button {
+  outline: none;
   border-radius: 5px;
   padding: 10px 16px;
   border: none;
@@ -158,5 +159,60 @@ main .language-offerings a {
 
 main .language-offerings a:hover {
   text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 15vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: grey;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f1eded;
+  border-bottom: solid 1px lightgrey;
+  padding: 0px 30px;
+  font-size: 0.9rem;
+}
+
+footer div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+footer div ul .footer-link {
+  text-decoration: none;
+  color: grey;
+}
+
+footer div ul .footer-link:hover {
+  text-decoration: underline;
+}
+
+footer div .footer-about-links {
+  width: 30%;
+}
+
+footer div .footer-other-links {
+  width: 15%;
 }
 /*# sourceMappingURL=style.css.map */
