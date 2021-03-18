@@ -38,22 +38,26 @@ nav .nav-links {
           align-items: center;
 }
 
-nav .nav-links .app {
+nav .nav-links .app-link {
+  text-decoration: none !important;
+  font-size: 13px;
+}
+
+nav .nav-links .app-link .app {
   font-size: 24px !important;
   padding: 8px;
   border-radius: 50%;
+  text-decoration: none;
 }
 
-nav .nav-links .app:hover {
+nav .nav-links .app-link .app:hover {
   background-color: #ece2e2;
-  text-decoration: none !important;
 }
 
 nav .nav-links .nav-link {
   text-decoration: none;
   font-size: 13px;
-  color: #404040;
-  font-weight: lighter;
+  color: #282828;
   padding: 0 5px;
 }
 

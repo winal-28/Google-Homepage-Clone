@@ -20,20 +20,24 @@ nav {
         justify-content: space-around;
         list-style: none;
         align-items: center;
-        .app {
-            font-size: 24px!important;
-            padding: 8px;
-            border-radius: 50%;
-            &:hover {
-                background-color: rgb(236, 226, 226);
-                text-decoration: none !important;
+         .app-link {
+             text-decoration: none !important;
+             font-size: 13px;
+             .app {
+              font-size: 24px!important;
+               padding: 8px;
+               border-radius: 50%;
+                text-decoration: none;
+               &:hover {
+                    background-color: rgb(236, 226, 226);
+             }
             }
+
         }
         .nav-link {
             text-decoration: none;
             font-size: 13px;
-            color: #404040;
-            font-weight: lighter;
+            color: #282828;
             padding: 0 5px;
             &:hover {
                 text-decoration: underline;
